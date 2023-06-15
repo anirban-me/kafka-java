@@ -14,7 +14,7 @@ import utility.ConsumerHelpers;
 
 public class ConsumerDemoAssignSeek {
 
-    private static final String TOPIC = "topic-100";
+    private static final String TOPIC = "test-topic";
 
     private static String getTopic() {
         return ConsumerDemoAssignSeek.TOPIC;
