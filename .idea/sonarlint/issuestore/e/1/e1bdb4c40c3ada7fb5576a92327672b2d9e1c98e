@@ -1,0 +1,12 @@
+
+V
+java:S1874T"4Remove this use of "IndexRequest"; it is deprecated.(«™¨Ãúÿÿÿÿ8™ú¼¦—/
+X	java:S125x"<This block of commented-out lines of code should be removed.(¯—’Ï8¥·î¦—/
+J
+java:S1604F"(Make this anonymous inner class a lambda(¸òµžùÿÿÿÿ8¹‡„—/
+h
+java:S2095i"KUse try-with-resources or close this "KafkaConsumer" in a "finally" clause.(¡Œë†8§ÅÞ¦—/
+y
+java:S2629s"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(“†¦¡8µÀØ†˜/
+^
+java:S3457s"AFormat specifiers should be used instead of string concatenation.(“†¦¡8µÀØ†˜/
