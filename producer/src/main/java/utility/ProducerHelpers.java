@@ -9,11 +9,11 @@ import java.util.Properties;
 
 public class ProducerHelpers {
 
-    public static Properties getDefaultProperties() {
-        String bootStrapServer = "127.0.0.1:9092";
+    private static final String LOCALHOST = "127.0.0.1:9092";
 
+    public static Properties getDefaultProperties() {
         Properties properties = new Properties();
-        properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootStrapServer);
+        properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, LOCALHOST);
 
         //Kafka turns everything into bits. So, it should know the serialization and deserialization types.
         properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
